@@ -2,7 +2,9 @@ function soma(n1, n2){
 			document.write(n1+n2);
 		}
 
-function tabuada(numeroRecebido){
+function tabuada(){
+	numeroRecebido = document.getElementById('valor').value;
+	
 	document.write("Número recebido: " + numeroRecebido);
 	document.write("<br>");
 
